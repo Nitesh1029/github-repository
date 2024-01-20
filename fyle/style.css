@@ -1,0 +1,90 @@
+body {
+    margin: 10px 20px 0 20px; 
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+    margin: 15px 20px 0; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #343a40;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container img {
+    border: 1px solid #343a40;
+    margin-top: 10px;
+}
+
+.card {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    color: #495057;
+}
+
+.subheading {
+    color: #007bff;
+}
+
+.pagination {
+    margin-top: -35px;
+}
+
+#userName {
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+#userDescription {
+    font-size: 14px;
+}
+
+#githubLink {
+    font-size: 14px;
+}
+
+.card-body a.btn {
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-top: -8px;
+}
+
+/* Responsive Styles */
+@media (min-width: 576px) {
+    .card {
+        width: 48%;
+        margin-right: 2
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        width: 48%;
+        margin-right: 2%;
+        height: 250px; 
+    }
+}
+
+@media (min-width: 992px) {
+    .card {
+        width: 31%;
+        margin-right: 2%;
+        height: 250px; 
+    }
+}
+
+@media (min-width: 1200px) {
+    .card {
+        width: 31%;
+        margin-right: 2%;
+        height: 250px; 
+    }
+}
